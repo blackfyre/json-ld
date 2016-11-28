@@ -1,24 +1,18 @@
 # JSON-LD Generator
 
-[![Build Status](https://travis-ci.org/Torann/json-ld.svg)](https://travis-ci.org/Torann/json-ld)
-[![Latest Stable Version](https://poser.pugx.org/torann/json-ld/v/stable.png)](https://packagist.org/packages/torann/json-ld)
-[![Total Downloads](https://poser.pugx.org/torann/json-ld/downloads.png)](https://packagist.org/packages/torann/json-ld)
-[![Patreon donate button](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/torann)
-[![Donate weekly to this project using Gratipay](https://img.shields.io/badge/gratipay-donate-yellow.svg)](https://gratipay.com/~torann)
-[![Donate to this project using Flattr](https://img.shields.io/badge/flattr-donate-yellow.svg)](https://flattr.com/profile/torann)
-[![Donate to this project using Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4CJA2A97NPYVU)
+This a fork of [Torann's JSON-LD generator](https://github.com/Torann/json-ld), I've only extended it with missing things :smile:
 
 Extremely simple JSON-LD generator.
 
 ## Installation
 
-- [JSON-LD Generator on Packagist](https://packagist.org/packages/torann/json-ld)
-- [JSON-LD Generator on GitHub](https://github.com/Torann/json-ld)
+- [JSON-LD Generator on Packagist](https://packagist.org/packages/blackfyre/json-ld)
+- [JSON-LD Generator on GitHub](https://github.com/blackfyre/json-ld)
 
 From the command line run
 
 ```
-$ composer require torann/json-ld
+$ composer require blackfyre/json-ld
 ```
 
 ## Methods
@@ -222,7 +216,10 @@ echo $context; // Will output the script tag
 ```
 
 ## Change Log
+ **v0.0.8**
 
+ - Extended Local business
+ 
  **v0.0.7**
 
  - Add corporation
