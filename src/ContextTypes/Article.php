@@ -23,7 +23,7 @@ class Article extends AbstractContext
         'dateCreated' => null,
         'dateModified' => null,
         'datePublished' => null,
-        'author' => Person::class,
+        'author' => Organization::class,
         'aggregateRating' => AggregateRating::class,
 
         'articleBody' => null,

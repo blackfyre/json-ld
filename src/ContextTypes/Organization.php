@@ -13,6 +13,8 @@ class Organization extends Thing
         'address' => PostalAddress::class,
         'logo' => ImageObject::class,
         'contactPoint' => ContactPoint::class,
+        'name' => null,
+        'url' => null,
     ];
 
     /**
