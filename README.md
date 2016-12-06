@@ -37,6 +37,7 @@ $ composer require blackfyre/json-ld
 - geo_coordinates
 - image_object
 - invoice
+- job_posting
 - list_item
 - local_business
 - music_album
@@ -216,39 +217,5 @@ echo $context; // Will output the script tag
 ```
 
 ## Change Log
- **v0.0.8**
 
- - Extended Local business
- 
- **v0.0.7**
-
- - Add corporation
- - Add the ability for custom context types
- - Fix file structure to adhere to PSR-4 file structure
-
- **v0.0.6**
-
- - Code cleanup
-
- **v0.0.5**
-
- - Add duration
- - Update place, review, and local_business
-
- **v0.0.3**
-
- - Add product
- - Add order
- - Add price specification
- - Add invoice
- - Add context
-
- **v0.0.2**
-
- - Add breadcrumbs
- - Add search box
- - Add a few docs
-
-**v0.0.1**
-
- - First release
+See the releases section: https://github.com/blackfyre/json-ld/releases
