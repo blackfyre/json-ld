@@ -12,6 +12,7 @@ class LocalBusiness extends AbstractContext
     protected $structure = [
         'name' => null,
         'description' => null,
+        'image' => null,
         'telephone' => null,
         'email' => null,
         'openingHours' => null,
@@ -21,6 +22,10 @@ class LocalBusiness extends AbstractContext
         'geo' => GeoCoordinates::class,
         'review' => Review::class,
         'aggregateRating' => AggregateRating::class,
+        'url' => null,
+        'priceRange' => null,
+        'areaServed' => null,
+        'hasMap' => null,
     ];
 
     /**

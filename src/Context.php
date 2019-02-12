@@ -33,7 +33,7 @@ class Context
      * @param string $context
      * @param array  $data
      *
-     * @return string
+     * @return static
      */
     public static function create($context, array $data = [])
     {
@@ -59,7 +59,7 @@ class Context
     {
         $properties = $this->getProperties();
 
-        return $properties ? "<script type=\"application/ld+json\">" . json_encode($properties) . "</script>" : '';
+        return $properties ? "<script type=\"application/ld+json\">" . json_encode($properties,JSON_UNESCAPED_UNICODE) . "</script>" : '';
     }
 
     /**
