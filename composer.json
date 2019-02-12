@@ -3,6 +3,7 @@
   "description": "Extremely simple JSON-LD markup generator.",
   "keywords": ["json-ld", "generator", "schema", "structured-data"],
   "license": "BSD-2-Clause",
+  "abandoned": "spatie/schema-org",
   "authors": [
     {
       "name": "Daniel Stainback",
